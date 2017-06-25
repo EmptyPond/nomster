@@ -63,6 +63,9 @@ gem 'simple_form'
 #Font Awesome 
 gem 'font-awesome-rails'
 
+#Devise for User Authentication
+gem 'devise'
+
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
 end
