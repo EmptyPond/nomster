@@ -66,6 +66,12 @@ gem 'font-awesome-rails'
 #Devise for User Authentication
 gem 'devise'
 
+#geocoder for getting lat and lng 
+gem "geocoder"
+
+#for using enviroment variables
+gem "figaro"
+
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
 end
