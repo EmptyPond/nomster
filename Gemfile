@@ -72,6 +72,12 @@ gem "geocoder"
 #for using enviroment variables
 gem "figaro"
 
+#carrierwave for creating an image input field
+gem 'carrierwave', '~> 1.0'
+
+#fog for using AWS
+gem 'fog-aws'
+
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
 end
